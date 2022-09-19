@@ -28,25 +28,21 @@ a {
     gap: 15px;
 }
 
-.header, .one {
+.header {
     display: flex;
     justify-content: space-between;
-    padding-left: 75px;
-    padding-right: 75px;
+    align-items: center;
+    padding: 15px 75px;
     background-color: #1F2937;
+
 }
 
-.header {
-    padding-top: 15px;
-    padding-bottom: 15px;
-    align-items: center;
-}
 
 /* Panel one elements */
-
 .one {
-    padding-top: 50px;
-    padding-bottom: 50px;
+    display: flex;
+    padding: 50px 75px;
+    background-color: #1F2937;
     gap: 30px;
 }
 
