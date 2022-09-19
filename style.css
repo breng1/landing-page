@@ -5,6 +5,11 @@ body {
     margin: 0;
 }
 
+.container {
+    max-width: 900px;
+    margin: 0 auto;
+}
+
 button {
     padding: 10px 28px;
     border-radius: 8px;
@@ -16,6 +21,9 @@ button {
 }
 
 /* Header elements */
+.header {
+    background-color: #1F2937;
+}
 
 .logo {
     font-size: 24px;
@@ -38,11 +46,11 @@ a {
     gap: 15px;
 }
 
-.header {
+.header .container {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 15px 75px;
+    padding: 15px 75px; 
     background-color: #1F2937;
 
 }
@@ -50,13 +58,17 @@ a {
 
 /* Panel one elements */
 .one {
+    background-color: #1F2937;
+}
+
+.one .container{
     display: flex;
     padding: 65px 75px;
     background-color: #1F2937;
     gap: 30px;
 }
 
-.one div {
+.one .container div {
     flex: 1;
 }
 
@@ -81,7 +93,8 @@ a {
 }
 
 /* Panel two elements */
-.two {
+
+.two .container{
     display: flex;
     flex-direction: column;
     align-items: center;
