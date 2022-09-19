@@ -16,11 +16,11 @@ button {
 }
 
 /* Header elements */
+
 .logo {
     font-size: 24px;
     color: #F9FAF8;
     font-weight: bolder;
-    
 }
 
 a, .subtext {
@@ -79,6 +79,22 @@ a {
     background-color: gray;
     color:#F9FAF8;
 }
+
+/* Panel two elements */
+.two {
+    color: #1F2937;
+}
+
+.main {
+    font-size: 36px;
+    font-weight: bolder;
+}
+
+.caption {
+    font-size: 18px;
+}
+
+
 
 
 
