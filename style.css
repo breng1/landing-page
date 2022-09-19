@@ -163,6 +163,22 @@ a {
     align-self: flex-end;
 }
 
+/* Panel four elements */
+
+.four .container {
+    background-color: #3882F6;
+    color:#F9FAF8;
+}
+
+.alert {
+    font-size: 18px;
+    font-weight: bolder;
+}
+
+.text {
+    font-size: 16px;
+}
+
 
 
 
