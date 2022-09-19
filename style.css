@@ -33,13 +33,13 @@ a {
     justify-content: space-between;
     padding-left: 75px;
     padding-right: 75px;
-    align-items: center;
     background-color: #1F2937;
 }
 
 .header {
     padding-top: 15px;
     padding-bottom: 15px;
+    align-items: center;
 }
 
 /* Panel one elements */
@@ -54,6 +54,7 @@ a {
     flex: 1;
 }
 
+
 .title {
     font-size: 48px;
     font-weight:bolder;
@@ -61,6 +62,9 @@ a {
 }
 
 .image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     background-color: gray;
     color:#F9FAF8;
 }
