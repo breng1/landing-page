@@ -196,5 +196,13 @@ a {
     border-color:#F9FAF8;
 }
 
+/* Footer elements */
 
+.footer {
+    background-color: #1F2937;
+    color:#F9FAF8;
+    font-size: 14px;
+    padding: 30px;
+    text-align: center;
+}
 
