@@ -5,6 +5,7 @@ body {
     margin: 0;
 }
 
+/* Header elements */
 .logo {
     font-size: 24px;
     color: #F9FAF8;
@@ -27,16 +28,30 @@ a {
     gap: 15px;
 }
 
-.header {
+.header, .one {
     display: flex;
     justify-content: space-between;
+    padding-left: 75px;
+    padding-right: 75px;
     align-items: center;
-    padding: 15px 75px;
     background-color: #1F2937;
 }
 
+.header {
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+/* Panel one elements */
+
 .one {
-    background-color:#1F2937;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    gap: 30px;
+}
+
+.one div {
+    flex: 1;
 }
 
 .title {
@@ -49,6 +64,7 @@ a {
     background-color: gray;
     color:#F9FAF8;
 }
+
 
 
 
