@@ -2,6 +2,7 @@
 
 body {
     font-family: Roboto, sans-serif;
+    margin: 0;
 }
 
 .logo {
@@ -19,8 +20,14 @@ a {
 
 .header-links {
     list-style: none;
+    display: flex;
+    gap: 15px;
 }
 
 .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 75px;
     background-color: #1F2937;
 }
