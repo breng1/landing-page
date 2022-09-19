@@ -82,7 +82,26 @@ a {
 
 /* Panel two elements */
 .two {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+    padding: 40px 75px;
     color: #1F2937;
+}
+
+.deck {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+}
+
+.item {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    text-align: center;
+    max-width: 150px;
 }
 
 .main {
@@ -91,16 +110,18 @@ a {
 }
 
 .caption {
-    font-size: 18px;
+    font-size: 16px;
 }
 
 .icon {
-    height: 110px;
-    width: 110px;
+    height: 150px;
+    width: 150px;
     border-radius: 10px;
     border-style: solid;
     border-width: 5px;
     border-color:#3882F6;
+    margin: 0 auto;
+    box-sizing:border-box;
 }
 
 
