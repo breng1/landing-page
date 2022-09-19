@@ -165,9 +165,20 @@ a {
 
 /* Panel four elements */
 
+.four {
+    padding: 75px 75px;
+}
+
 .four .container {
+    display: flex;
+    align-items: center;
+    gap: 40px;
     background-color: #3882F6;
     color:#F9FAF8;
+    border-radius: 8px;
+    padding: 30px;
+    width: max-content;
+    
 }
 
 .alert {
@@ -179,6 +190,11 @@ a {
     font-size: 16px;
 }
 
+.bordered {
+    border-style: solid;
+    border-width: 2px;
+    border-color:#F9FAF8;
+}
 
 
 
